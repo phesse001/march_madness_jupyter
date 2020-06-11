@@ -1,8 +1,8 @@
 #include "Simulator.h"
 
 void run(int home_field_advantage, bool apply_scaling){
-    createTeams(string("/home/patrick/Desktop/madness/Data/NCAA Mens BasketBall 2019/NCAABasketballTeams.txt"));
-    loadGames(string("/home/patrick/Desktop/madness/Data/NCAA Mens BasketBall 2019/NCAABasketballGames.txt"), home_field_advantage, apply_scaling);
+    createTeams(string("/home/jovyan/Data/NCAABasketballTeams.txt"));
+    loadGames(string("/home/jovyan/Data/NCAABasketballGames.txt"), home_field_advantage, apply_scaling);
     solutionVector = gameMatrix.lu().solve(scores);
 
     map<int, Team*>::iterator itr;
