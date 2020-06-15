@@ -1,5 +1,5 @@
 # Binder and Jupyter
-Two notebooks are provided to run the march madness simulation. MarchMadnessSimulation(02) includes all sources code and the MarchMadnessSimulation(01) begins with a call to the run method along with some visualizations and explanations.
+Serves as an example repository compatible with binder. Two notebooks are provided, MarchMadnessSimulation(01) and MarchMadnessSimulation(02), which can both be interacted with by clicking the binder badge below.
 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/phesse001/march_madness_jupyter/master)
