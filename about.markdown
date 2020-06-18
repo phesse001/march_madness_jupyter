@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+nav_order: 1
 permalink: https://phesse001.github.io/march_madness_jupyter/
 ---
 # What is Binder?
