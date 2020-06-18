@@ -17,7 +17,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
+logo: "assets/images/logo_social.png"
 title: About Binder
 email: phesse001@csbsju.edu
 description: >- # this means to ignore newlines until "baseurl:"
@@ -25,6 +25,25 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/march_madness_jupyter" # the subpath of your site, e.g. /blog
 url: "https://phesse001.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  phesse001
+# Enable or disable the site search
+search_enabled: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "C++ March Madness Simulation in Binder":
+    - "https://github.com/phesse001/march_madness_jupyter/tree/master"
+
+# Heading anchor links appear on hover over h1-h6 tags in page content
+# allowing users to deep link to a particular heading on a page.
+#
+# Supports true (default) or false/nil
+heading_anchors: true
+
+# Footer content appears at the bottom of every page's main content
+#footer_content: "Copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
+
+# Color scheme currently only supports "dark" or nil (default)
+color_scheme: "dark"
 
 # Build settings
 theme: "just-the-docs"
