@@ -1,23 +1,14 @@
 # Documentation
 
-JupyterSite allows you to easily build a suite of rendered documents from Jupyter
-notebooks. Jupyter notebooks go in, html/markdown pages, PDFs, slideshows, and tex
-comes out. If you use this in a Github repository, it will even build a Github pages
-site. This also shows how to make the notebooks easily accessible in Julia.
+Here you will find everything you need to get started with using binder.
 
-It just takes one button, simplifying the entire process. The `publish.sh` file
-does all the heavy lifting, showing you how to do all of this (any of the conversions
-can be disabled by commenting out the appropriate lines).
+## Getting Started
 
-## Example Site
+First, you will need to have a GitHub repository containing at least one Jupyter notebook and one environment.yml file.
 
-An example of the product this package generates can be found at: https://github.com/UCIDataScienceInitiative/IntroToJulia .
+Here is a sample of what a 'binderized' repository would look like
 
-The site that this generates is: http://UCIDataScienceInitiative.github.io/IntroToJulia/
-
-## Installation
-
-To use this, first install Jupyter (note: Python must be installed)
+![Binder](/assests/images/example-binder-repo.png)
 
 ```bash
 pip install jupyter
