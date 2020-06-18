@@ -8,7 +8,6 @@ First, you will need to have a GitHub repository containing at least one Jupyter
 
 Here is a sample of what a 'binderized' repository would look like
 
-./
 ├── environment.yml
 
 ├── index.ipynb
