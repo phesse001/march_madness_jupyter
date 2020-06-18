@@ -1,3 +1,6 @@
+---
+nav_order: 2
+---
 # Documentation
 
 Here you will find everything you need to get started with using binder.
