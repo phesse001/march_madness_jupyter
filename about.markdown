@@ -11,4 +11,4 @@ project was built in. With a single environment.yml or requirements.txt file, yo
 
 *interactively*. Visit the documentation page for details on how to use binder.
 
-![](https://github.com/phesse001/march_madness_jupyter/blob/gh-pages/images/how-binder-works.PNG)
+![](https://github.com/phesse001/march_madness_jupyter/blob/gh-pages/images/how-binder-works.PNG?raw=true)
