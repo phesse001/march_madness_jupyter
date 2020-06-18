@@ -10,7 +10,9 @@ Here is a sample of what a 'binderized' repository would look like
 
 ./
 ├── environment.yml
+
 ├── index.ipynb
+
 └── README.md
 
 The two required files are
