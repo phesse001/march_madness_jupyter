@@ -24,7 +24,8 @@ And the .ipynb is any Jupyter notebook
 
 ## Setting Up the .yml File
 
-The following specifies ways in which a .yml file can be set up for your conda environment [yml configuration](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment)
+Click [Here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment)
+to find information on how to set up a .yml file for your purposes
 
 This file can also be created automatically
 
@@ -47,3 +48,19 @@ dependencies:
 ## Building the Image with [Binder](https://mybinder.org/)
 
 Now that you have a GitHub repository with whatever notbooks you want to use and the environment.yml specifying the environment in which the notebooks were created, you are ready to build and deploy the image with your work.
+
+Head to [mybinder.org](https://mybinder.org/) and you should see the following
+
+![](https://github.com/phesse001/march_madness_jupyter/blob/gh-pages/images/my-binder-example.PNG)
+
+Copy and paste the url to the repository you just created and you are ready to launch! If you launch with just the url filled in, after the build completes you will be redirected to Jupyter server containing everything from your GitHub repository. 
+
+You can edit on any of the files and execute any of the notebooks. These changes will only occur on the server side and will not affect the state of the files in the GitHub repository.
+
+You also have the option to specify a path to a notebook. If you fill in this argument, once the image is built, instead of being redirected to a view of your GitHub Repository in Jupyter, you will be redirected directly to the notebook you specified.
+
+## References
+<a id="1">[1]</a> 
+Dijkstra, E. W. (1968). 
+Go to statement considered harmful. 
+Communications of the ACM, 11(3), 147-148.
