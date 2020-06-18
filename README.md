@@ -8,7 +8,7 @@ First, you will need to have a GitHub repository containing at least one Jupyter
 
 Here is a sample of what a 'binderized' repository would look like
 
-![](https://github.com/phesse001/march_madness_jupyte/tree/gh-pages/images/example-binder-repo.png?raw=true)
+![](https://github.com/phesse001/march_madness_jupyte/tree/gh-pages/images/example-binder-repo.PNG?raw=true)
 
 ```bash
 pip install jupyter
