@@ -57,7 +57,7 @@ Now that you have a GitHub repository with whatever notbooks you want to use and
 
 Head to [mybinder.org](https://mybinder.org/) and you should see the following
 
-![](https://github.com/phesse001/march_madness_jupyter/blob/gh-pages/images/my-binder-example.PNG)
+![](https://github.com/phesse001/march_madness_jupyter/blob/gh-pages/images/my-binder-example.PNG?raw=true)
 
 Copy and paste the url to the repository you just created and you are ready to launch! If you launch with just the url filled in, after the build completes you will be redirected to Jupyter server containing everything from your GitHub repository. 
 
