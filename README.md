@@ -1,4 +1,4 @@
-# JupyterSite
+# Documentation
 
 JupyterSite allows you to easily build a suite of rendered documents from Jupyter
 notebooks. Jupyter notebooks go in, html/markdown pages, PDFs, slideshows, and tex
