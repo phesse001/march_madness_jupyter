@@ -2,7 +2,6 @@
 layout: default
 title: Home
 nav_order: 1
-permalink: https://phesse001.github.io/march_madness_jupyter/
 ---
 # What is Binder?
 Binder allows you to take an existing GitHub repository containing Jupyter notebooks and create a snapshot of the environment that your 
