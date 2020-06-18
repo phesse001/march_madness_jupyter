@@ -1,4 +1,4 @@
 ---
-Layout: default
-Title: March Madness Example
+layout: default
+title: March Madness Example
 ---
