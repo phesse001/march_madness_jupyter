@@ -4,6 +4,17 @@ title: Documentation
 nav_order: 2
 ---
 
+<head>
+<style>
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 10px;
+} 
+</style>
+</head>
+
 # Documentation
 
 Here you will find everything you need to get started with using binder.
@@ -35,21 +46,19 @@ to find information on how to set up a .yml file for your purposes
 
 This file can also be created automatically
 
-```bash
-conda env export --from-history -f environment.yml
-```
+<pre contenteditable="true" spellcheck= "false">
+<code>conda env export --from-history -f environment.yml</code></pre>
 
 While not garunteeded to be perfect, if you are working within a specific environment, this will capture all the dependencies in that environment. You can also run this command and go back and remove any dependencies you may not need or specify particular versions.
 
 For Example:
 
-```
-name: example-environment
+<pre contenteditable="true" spellcheck= "false">
+<code>name: example-environment
 channels:
   - conda
 dependencies:
-  -example-package=3.5.2
-```
+  -example-package=3.5.2</code></pre>
 
 ## Building the Image with [Binder](https://mybinder.org/)
 
