@@ -1,8 +1,23 @@
 #include "Simulator.h"
 
+vector<string> labels;
+vector<Team*> teamCollection;
+vector<Team> resultVector;
+vector<int> x_axis;
+vector<int> y_axis;
+map<int, Team*> teamMap;
+Matrix<double, Dynamic, Dynamic> gameMatrix;
+VectorXd scores;
+VectorXd solutionVector;
+vector<int> correct;
+int numGamesPlayed;
+int numTeams;
+const int HIGH_MARGIN = 21;
+const double HIGH_MARGIN_SCALE = .8;
+
 void run(int home_field_advantage, bool apply_scaling){
-    createTeams(string("/home/jovyan/Data/NCAABasketballTeams.txt"));
-    loadGames(string("/home/jovyan/Data/NCAABasketballGames.txt"), home_field_advantage, apply_scaling);
+    createTeams(string("/home/patrick/march_madness_jupyter/Data/NCAABasketballTeams.txt"));
+    loadGames(string("/home/patrick/march_madness_jupyter/Data/NCAABasketballGames.txt"), home_field_advantage, apply_scaling);
     solutionVector = gameMatrix.lu().solve(scores);
 
     map<int, Team*>::iterator itr;

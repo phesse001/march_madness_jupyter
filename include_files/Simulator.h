@@ -12,7 +12,6 @@
 #include "./eigen/Eigen/Core"
 #include "./eigen/Eigen/Dense"
 #include "Team.h"
-#include <bits/stdc++.h>
 #include <iterator>
 #include <algorithm>
 
@@ -21,23 +20,6 @@ class Game;
 using namespace std;
 using namespace Eigen;
 
-/**
- * Collection holding all teams.
- */
-vector<string> labels;
-vector<Team*> teamCollection;
-vector<Team> resultVector;
-vector<int> x_axis;
-vector<int> y_axis;
-map<int, Team*> teamMap;
-Matrix<double, Dynamic, Dynamic> gameMatrix;
-VectorXd scores;
-VectorXd solutionVector;
-vector<int> correct;
-int numGamesPlayed;
-int numTeams;
-const int HIGH_MARGIN = 21;
-const double HIGH_MARGIN_SCALE = .8;
 
 /**
  * Method responsible for converting team text file into team objests
@@ -62,5 +44,11 @@ double constructAxes();
 double computeSSE(std::vector<int> vect1, std::vector<Team> vect2);
 
 void createLabels();
+
+double sse();
+
+double mse();
+
+double se();
 
 #endif //MARCH_MADNESS_SIMULATOR_SIMULATOR_H
