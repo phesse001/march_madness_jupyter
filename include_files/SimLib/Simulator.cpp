@@ -207,6 +207,7 @@ for(int i = resultVector.size()-1; i >= 0; i--)
         if(current_value == correct.at(j-1))
         {
             y_axis.push_back(j);
+            std::cout << current_value - x_axis.at(count) << std::endl;
             sum += pow(current_value - x_axis.at(count),2);
             count += 1;
         }
